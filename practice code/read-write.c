@@ -3,7 +3,7 @@
 int main()
 {
     // declare file pointer and open file in read/write mode
-    FILE *fptr;
+    FILE* fptr;
     fptr = fopen("test-file-c.txt", "w+");
 
     // write to file
