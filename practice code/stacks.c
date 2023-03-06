@@ -17,10 +17,10 @@ int main() {
     struct stack s;
 
     init_stack(&s);
-    printf("s.top after init_stack: %d\n", s.top);
+    printf("s.top after init_stack: %d\n", s.top); // -1
 
     push(&s, 5);
-    printf("s.top after 1 item [5] added: %d\n", s.top);
+    printf("s.top after 1 item [5] added: %d\n", s.top); // 0
 
     push(&s, 7);
     printf("s.top after 2 items [5,7] added: %d\n", s.top);

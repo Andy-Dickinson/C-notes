@@ -51,6 +51,7 @@ void enqueue(int *arr, int item, int *pfront, int *prear) {
 }
 
 // checks if queue is empty, returns 1 when empty
+// run before dequeue
 int empty(int *pfront) {
 
     if (*pfront == -1) {
