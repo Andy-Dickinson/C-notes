@@ -152,6 +152,8 @@ void delete(struct node**  list, int num) {
     struct node* temp = *list;
     while(temp != NULL) {
         if(temp -> data == num) {
+
+            // if num is the first element in the list, remove from list
             if(temp == *list) {
                 *list = (*list) -> next;
                 (*list) -> prev = NULL;
