@@ -16,7 +16,7 @@ void code() {
 int main() {
 
     // number of times to run code to time
-    const int CODE_RUNS = 5;
+    const int CODE_RUNS = 1;
 
     // declare clock_t object
     clock_t t;

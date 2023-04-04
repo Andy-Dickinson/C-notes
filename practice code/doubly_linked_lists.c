@@ -25,7 +25,7 @@ int main(void) {
 
     printf("No of elements in linked list = %d\n", count(list));
     display(list);
-
+printf("list add = %p\n", &list);
     append(&list, 14);
     append(&list, 30);
     append(&list, 25);
@@ -64,6 +64,7 @@ int main(void) {
 
 // returns length of list
 int count(struct node* list) {
+printf("count list add = %p\n", &list);
     int count = 0;
     while(list != NULL) {
         list = list -> next;
