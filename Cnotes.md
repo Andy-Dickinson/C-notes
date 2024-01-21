@@ -806,7 +806,7 @@ example:
 
 <div id="eac77289-6807-48b1-ae61-3d2477fab41c" class="cell markdown">
 
-## Mathes Functions
+## Maths Functions
 
 `#include <math.h>`
 
